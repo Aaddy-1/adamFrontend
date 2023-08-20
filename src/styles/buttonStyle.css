@@ -1,0 +1,45 @@
+.button-container {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-container {
+    position: sticky;
+    bottom: 20px;
+    right: 20px;
+}
+  
+.add-button {
+    /* Add your button styles here */
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #00ABB3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-container {
+    position: fixed;
+    bottom: 20px;
+    left: 650px;
+}
+
+.submit-button {
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: #00ABB3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
